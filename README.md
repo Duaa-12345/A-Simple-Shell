@@ -1,0 +1,5 @@
+# A-Simple-Shell
+The goal of the project is to write our own, very simple, shell. The shell should print a command prompt and allow the user to enter a command. After entering this command, the shell should properly execute the command, this includes supplying the provided arguments to the program. The user can exit the shell using the exit command. The shell should also have a 
+functioning cd command to change the current working directory and the shell should show the 
+current working directory in the prompt. A simple version of the ls command must be included. Using these simple system commands, bigger commands can be created where the output of one command is sent to another. This is for instance done using the pipe character (|). Through redirection, using the > symbol, the output of a program can be redirected to a file that 
+is stored on disk. Implementing (simplified) support for handling pipes and redirection, so that your shell is capable of executing commands such as cat Makefile | grep gcc, sort Makefile > sorted.txt and cat words.txt | sort > sortedwords.txt.
